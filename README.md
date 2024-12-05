@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Role-Based Access Control (RBAC) UI
 
-## Getting Started
+This project implements a Role-Based Access Control (RBAC) User Interface designed for administrators to efficiently manage users, roles, and permissions. The focus is on creating a secure, user-friendly, and flexible interface to showcase problem-solving abilities and creativity.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. User Management
+- View, add, edit, or delete users.  
+- Assign roles to users and toggle their status (Active/Inactive).  
+- Intuitive table view for displaying user information.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Role Management
+- Create, view, and edit roles.  
+- Associate roles with permissions such as Read, Write, Delete, or custom attributes.  
+- Visual representation of role-permission relationships for better understanding.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Dynamic Permissions
+- Easily assign and modify permissions for roles.  
+- Ensure clarity in the permission structure using intuitive UI components like checkboxes or toggles.  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
