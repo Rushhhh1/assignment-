@@ -25,7 +25,7 @@ This project implements a Role-Based Access Control (RBAC) User Interface design
 ---
 ## Tech Stack
 - React
-- TypeScript
+- JavaScript
 - Tailwind CSS
 - Vite
 
